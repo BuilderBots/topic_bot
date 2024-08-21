@@ -1,0 +1,33 @@
+# -------------------部署需要修改---------------------
+bots:
+  config:
+    logs: false
+    background-id: -1111111111111
+    forward-id: -1111111111111
+    greetings: 您好，这里是24小时在线人工客服，不是机器人，请问有什么可以帮您？😊
+    topic-name: 客户 | %nickname% | %userId% | 新对话
+    tokens:
+      BOT_TOKEN: 234234234234:XXXXXXXXXXXXXXXXXXXXXXXXXX
+# -------------------部署需要修改---------------------
+
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**.xml
+  configuration:
+    # MyBatis 配置
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+  global-config:
+    # 全局配置
+    banner: false
+    db-config:
+      table-prefix: t_
+      # 数据库配置
+      id-type: auto
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/forward_bot?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true

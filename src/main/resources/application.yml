@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: dev  # 默认启动 dev 环境，上线需要修改为 prod 环境，并且将 prod 内的内容替换位你自己的配置

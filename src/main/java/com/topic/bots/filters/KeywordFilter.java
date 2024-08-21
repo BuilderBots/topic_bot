@@ -12,7 +12,7 @@ import org.telegram.telegrambots.meta.api.objects.message.Message;
  * <p>
  * </p>
  *
- * @author zyred
+ * @author admin
  * @since v 0.0.1
  */
 @Component

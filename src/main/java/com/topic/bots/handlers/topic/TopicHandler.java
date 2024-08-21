@@ -30,7 +30,7 @@ import java.util.Objects;
  *     处理话题消息
  * </p>
  *
- * @author zyred
+ * @author admin
  * @since v 0.0.1
  */
 @Component

@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * 启用 sparta，用于 springboot 启动类上
  * 主要工作：通过 @Import 注解初始化核心自动配置文件
  *
- * @author zyred
+ * @author admin
  * @since v 0.0.1
  */
 @Target(ElementType.TYPE)

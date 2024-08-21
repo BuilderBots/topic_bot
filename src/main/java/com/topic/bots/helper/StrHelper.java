@@ -9,7 +9,7 @@ import com.topic.bots.common.CommonCache;
  * <p>
  * </p>
  *
- * @author zyred
+ * @author admin
  * @since v 0.0.1
  */
 public class StrHelper {
